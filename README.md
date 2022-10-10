@@ -13,6 +13,11 @@ Modules should...
 - declare the compatible version of terraform and various providers as necessary
 
 ## Usage
-<pre><code>module "" {
+<pre><code>module "this" {
+  source = "github.com/lucidus-solutions/terraform-aws-{module}
+
+  name        =
+  env         =
+  program     =
 
 }</code></pre>
