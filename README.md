@@ -12,4 +12,12 @@ Modules should...
 - follow exact naming conventions for variables and locals as referred in this template
 - declare the compatible version of terraform and various providers as necessary
 
-gh repo create lucidus-solutions/terraform-aws-opensearch --public -p lucidus-solutions/terraform-module-template -c
+## Usage
+<pre><code>module "this" {
+  source = "github.com/lucidus-solutions/terraform-aws-{module}
+
+  name        =
+  env         =
+  program     =
+
+}</code></pre>
